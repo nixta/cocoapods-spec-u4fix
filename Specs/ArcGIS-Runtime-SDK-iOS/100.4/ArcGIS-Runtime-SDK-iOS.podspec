@@ -12,8 +12,7 @@ s.public_header_files 	= 'ArcGIS.framework/Headers/*.h'
 s.source_files			= 'ArcGIS.framework/Headers/*.h'
 s.preserve_paths 			= 'ArcGIS.framework'
 s.license      			= { :type => 'Commercial' }
-s.libraries 				= %w{c++}
-s.xcconfig 				= { 'OTHER_LDFLAGS' => '-ObjC', 'CLANG_ENABLE_OBJC_ARC' => 'YES', 'CLANG_ENABLE_MODULES' => 'YES'  }
+s.xcconfig 				= { 'CLANG_ENABLE_OBJC_ARC' => 'YES', 'CLANG_ENABLE_MODULES' => 'YES'  }
 s.preserve_paths			= "*"
 s.requires_arc			= true
 s.description				= "With ArcGIS you can : Create thematic interactive 2D maps & 3D scenes that allow your users to explore and understand their geographic data.
